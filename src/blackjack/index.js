@@ -88,7 +88,6 @@ deck = crearDeck( tipos, especiales );
 btnPedir.addEventListener('click', () => {
 
     const carta = pedirCarta( deck );
-    
     puntosJugador = puntosJugador + valorCarta( carta );
     puntosHTML[0].innerText = puntosJugador;
     
